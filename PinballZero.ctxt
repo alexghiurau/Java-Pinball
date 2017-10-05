@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ xVel\ yVel\ objectRadius\ theMachine
+comment0.target=PinballZero(int,\ int,\ int,\ int,\ int,\ Machine)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ PinballZero\r\n\ \r\n\ @param\ xPos\ \ the\ horizontal\ coordinate\ of\ the\ \r\n\ @param\ yPos\ \ the\ vertical\ coordinate\ of\ the\ object\r\n\ @param\ xVel\ \ the\ horizontal\ speed\ of\ the\ object\r\n\ @param\ yVel\ \ the\ vertical\ speed\ of\ the\ object\r\n\ @param\ objectRadius\ \ the\ radius\ (in\ pixels)\ of\ the\ object\r\n\ @param\ theMachine\ \ the\ machine\ this\ object\ is\ in\r\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\r\n\ Move\ this\ object\ according\ to\ its\ position\ and\ speed\ and\ redraw.\r\n
+comment2.params=pinballsThree\ pinballsZero\ bumpers\ holes
+comment2.target=void\ collisionTest(java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList)
+comment2.text=\r\n\ This\ method\ tests\ wether\ an\ object\ has\ collided\ with\r\n\ another\ object\ such\ as\ a\ pinball,\ bumper\ or\ hole.\r\n\ Depending\ on\ the\ type\ of\ object,\ the\ pinball\ will\ have\r\n\ some\ of\ its\ properties\ changed.\r\n\ \r\n\ @param\ pinballsThree\ \ These\ are\ the\ PinballThree\ objects\ taken\ from\ their\ ArrayList\r\n\ @param\ pinballsZero\ \ These\ are\ the\ PinballThree\ objects\ taken\ from\ their\ ArrayList\r\n\ @param\ bumpers\ \ These\ are\ the\ BumperObject\ objects\ taken\ from\ their\ ArrayList\r\n\ @param\ holes\ \ These\ are\ the\ HoleObject\ objects\ taken\ from\ their\ ArrayList\r\n
+numComments=3

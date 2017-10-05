@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Demo()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Demo\ \r\n\ This\ initiates\ the\ machine\r\n
+comment1.params=
+comment1.target=void\ startDemo()
+comment1.text=\r\n\ Starts\ the\ demo\ for\ this\ project.\r\n
+numComments=2
